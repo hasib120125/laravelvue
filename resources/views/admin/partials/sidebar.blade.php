@@ -38,10 +38,10 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <router-link to="/users" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Inactive Page</p>
-                </a>
+                  <p>Users</p>
+                </router-link>
               </li>
             </ul>
           </li>
@@ -58,7 +58,7 @@
           <li class="nav-item">
             <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();
                 document.getElementById('logout-form').submit();">
-              <i class="nav-icon fa fa-power-off"></i>
+              <i class="nav-icon fa fa-power-off red"></i>
               <p>
                 Logout
               </p>
