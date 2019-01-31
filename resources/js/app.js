@@ -16,6 +16,7 @@ Vue.use(VueRouter)
 
 let routes = [
   { path: '/dashboard', component: require('./components/Dashboard.vue').default },
+  { path: '/users', component: require('./components/Users.vue').default },
   { path: '/profile', component: require('./components/Profile.vue').default }
 ]
 
@@ -23,8 +24,6 @@ const router = new VueRouter({
 	mode: 'history',
   	routes // short for `routes: routes`
 })
-
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
