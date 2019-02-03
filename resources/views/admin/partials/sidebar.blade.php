@@ -39,7 +39,7 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <router-link to="/users" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
+                  <i class="fas fa-user nav-icon"></i>
                   <p>Users</p>
                 </router-link>
               </li>
